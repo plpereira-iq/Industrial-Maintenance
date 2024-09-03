@@ -46,6 +46,8 @@ const HistorialEquipo = () => {
     return date.toLocaleDateString('es-ES');
   };
 
+  console.log(maintenanceHistory);
+
   return (
     <div>
       <CustomNavbar />
